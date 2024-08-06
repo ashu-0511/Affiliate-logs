@@ -1,0 +1,143 @@
+.dataTables_filter input {
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-left: 0px !important;
+}
+
+div.dt-buttons .dt-button {
+    margin-right: 0px !important;
+}
+
+.navs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: end;
+}
+
+.sorting {
+    padding-top: 6px !important;
+    align-content: center;
+}
+
+.btn-1 {
+    flex: 1;
+}
+
+.z-index-0 {
+    z-index: 0;
+}
+
+.button_su {
+    display: flex !important;
+    height: 50px;
+}
+
+.heading {
+    flex: 1;
+    white-space: nowrap;
+    margin: 20px 0px 20px 20px;
+}
+
+.heading h4 {
+    font-size: 18px !important;
+    margin-right: 0px !important;
+}
+
+.table.dataTable>tbody>tr.child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+    /* border-bottom: none !important; */
+    padding: 0.8em 0 !important;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.child,
+table.dataTable.dtr-inline.collapsed>tbody>tr>th.child,
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dataTables_empty {
+    border: none !important;
+}
+
+.row {
+    display: flex;
+}
+
+.btncolor {
+    color: white !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.9rem !important;
+    font-size: 0.8125rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+    border: 1px solid #f3f6f9 !important;
+    border-radius: 0.25rem !important;
+    background-color: #09b29c;
+}
+
+.pr {
+    padding-right: 17px !important;
+}
+
+.input-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.white {
+    color: white !important;
+}
+
+.examples td {
+    padding: 15px !important;
+}
+
+.fnt_head {
+    margin-bottom: 0px !important;
+}
+
+.gap {
+    gap: 8px;
+}
+
+#date,
+#date1 {
+    padding: 0.5rem 0.9rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .input4 {
+        flex-direction: column;
+    }
+
+    .gap-4 {
+        gap: 7px;
+    }
+
+    button.dt-button {
+        margin-left: 0px !important;
+    }
+
+
+}
+
+.bootstrap-select>.dropdown-toggle:after {
+    margin-top: -1px;
+    font-size: 17px !important;
+}
+
+.form-control {
+    text-transform: capitalize !important;
+}
+
+.dt-buttons {
+    margin-bottom: 10px !important;
+}
